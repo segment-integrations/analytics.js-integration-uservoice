@@ -2,7 +2,7 @@
   "name": "analytics.js-integration-uservoice",
   "repo": "segment-integrations/analytics.js-integration-uservoice",
   "description": "The Uservoice analytics.js integration.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
@@ -13,7 +13,7 @@
     "segmentio/to-unix-timestamp": "0.0.1"
   },
   "development": {
-    "segmentio/analytics.js": "*",
+    "segmentio/analytics.js-core": "^2.10.0",
     "component/jquery": "1.0.0",
     "segmentio/clear-env": "0.2.x",
     "segmentio/analytics.js-integration-tester": "1.4.x",
