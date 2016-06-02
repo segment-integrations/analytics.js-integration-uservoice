@@ -1,11 +1,12 @@
+'use strict';
 
-var Analytics = require('analytics.js-core').constructor;
-var integration = require('analytics.js-integration');
+var Analytics = require('@segment/analytics.js-core').constructor;
+var integration = require('@segment/analytics.js-integration');
 var jQuery = require('jquery');
-var sandbox = require('clear-env');
-var tester = require('analytics.js-integration-tester');
+var sandbox = require('@segment/clear-env');
+var tester = require('@segment/analytics.js-integration-tester');
 var unix = require('to-unix-timestamp');
-var when = require('when');
+var when = require('do-when');
 var UserVoice = require('../lib/');
 
 describe('UserVoice', function() {
